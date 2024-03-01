@@ -1,0 +1,31 @@
+body{
+    background-image: url(../blurat.png);
+    background-size: cover;
+}
+
+.home {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    text-align: center; 
+   
+}
+
+.home .titlu{
+    color: #004B52; 
+    font-size: 50px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.home p {
+    color: rgb(17, 16, 16);
+    font-size: 23px;
+}
+
+.home .icon {
+    color: #004B52;
+}
+

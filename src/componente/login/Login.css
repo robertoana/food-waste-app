@@ -1,0 +1,90 @@
+/*004B52 - albastru inchis  95C8EE  5EAC35 - verde inchis 7DCA53   EDF6F9 - alice blue*/
+
+.login{
+    background-color: #EDF6F9;
+    
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #004B52;
+}
+
+.login h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.login .textbox{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 15px 0;
+
+}
+
+.textbox input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid #004B52;
+    border-radius: 50px;
+    outline: none;
+    align-items: center;
+    padding: 20px 45px 20px 20px;
+}
+
+.textbox .icon{
+    position: absolute;
+    right:20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size:16px;
+}
+
+.login .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.remember-forgot label input{
+
+    accent-color: #fff;
+    margin: 4px;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.login button{
+    width:100%;
+    height:45px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: #004B52;
+    cursor: pointer;
+
+}
+
+.login button:hover{
+    background-color: white;
+    color: #004B52;
+    border: 2px solid #004B52;
+}
+
+.login .register{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+   
+}
+
+.navbar{
+    display: none;
+}

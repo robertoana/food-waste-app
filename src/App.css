@@ -1,0 +1,67 @@
+/*004B52 - albastru inchis  95C8EE  5EAC35 - verde inchis 7DCA53   EDF6F9 - alice blue*/
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Sidebar {
+  height: 100%;
+  width: 100px;
+  background-color: #004B52;
+}
+
+.buton{
+  display: block;
+  margin: auto;
+  margin: 5px;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  background-color: #004B52;
+  width: 200px;
+  height: 40px;
+  border-radius: 6px;
+  color: aliceblue;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.buton:hover{
+  opacity: 80%;
+}

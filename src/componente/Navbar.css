@@ -1,0 +1,85 @@
+/*004B52 - albastru inchis  95C8EE  5EAC35 - verde inchis 7DCA53   EDF6F9 - alice blue*/
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: #004B52;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; 
+    left: 0;
+    top: 0;
+}
+
+.menu-bars {
+    margin-left: 30px;
+    font-size: 30px;
+    background-color: #004B52;
+    color: white; 
+    cursor: pointer; 
+}
+
+.nav-menu {
+    background-color: #004B52;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    position: fixed;
+    top: 0;
+    left: -250px; /* muta sidebar-ul in afara ecranului */
+    transition: 350ms;
+
+}
+
+
+.nav-menu.active {
+    left: 0;
+    transition: 350ms;
+
+}
+
+.nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16 px;
+    list-style: none;
+    height: 60px;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+
+}
+
+.nav-text a:hover {
+    background-color: #87bde6;
+}
+
+
+.nav-menu-items{
+    width: 100%;
+}
+
+.navbar-toggle {
+    background-color: #004B52;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+span {
+    margin-left: 16px;
+}

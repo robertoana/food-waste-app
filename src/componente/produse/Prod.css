@@ -1,0 +1,82 @@
+/*004B52 - albastru inchis  95C8EE  5EAC35 - verde inchis 7DCA53   EDF6F9 - alice blue*/
+
+.p-datatable .p-datatable-wrapper {
+    border-radius: 6px; 
+    
+}
+
+/*header*/
+.p-datatable .p-datatable-thead > tr > th {
+    background-color: #004B52; 
+    color: aliceblue; 
+    font-size: 18px; 
+    border-bottom: 1px solid #acbac9; 
+    padding: 10px;
+}
+
+/* stilizarea celulelor din tabel */
+.p-datatable-tbody > tr > td {
+    border-bottom: 1px solid #cdd4db;
+    font-size: 16px;
+    padding: 10px;
+    align-items: center;
+    
+    
+}
+
+.p-datatable .p-datatable-tbody > tr:hover {
+    background-color: #d0e4f4; 
+}
+
+/*bara de cautare*/
+.cautare {
+    margin-bottom: 30px; 
+    height: 20px;
+}
+
+.p-inputtext {
+    width: 200px; 
+    height: 40px; 
+    padding: 0 10px; 
+    font-size: 16px; 
+    border-radius: 5px;
+    border: 1px solid #004B52; 
+    margin-bottom: 20px; 
+}
+
+/* iconite filtru */
+.p-datatable .p-sortable-column-icon {
+    color: aliceblue; 
+}
+
+.text {
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+}
+
+.cos{
+    width: 150px; 
+    height: 40px; 
+    background-color: #004B52;
+    border-radius: 5px;
+    font-size: 16px; 
+    padding: 0 10px; 
+    margin-bottom: 20px; 
+    align-content: center;
+    text-align: justify;
+    
+}
+
+.dialog-header {
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+    color: #004B52; 
+    height: 40px;
+    display: flex; 
+    justify-content: center;
+}
+

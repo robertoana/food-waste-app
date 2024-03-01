@@ -1,0 +1,69 @@
+/*004B52 - albastru inchis  95C8EE  5EAC35 - verde inchis 7DCA53   EDF6F9 - alice blue*/
+
+.titlu {
+    
+    font-size: 40px; 
+    color: #000000; 
+    margin-bottom: 50px; 
+    margin-top: 30px;
+    text-align: center;
+}
+
+.produse {
+    width: 100%;
+   
+    border-radius: 10px;
+}
+
+.tabel {
+    display: block;
+    background-color: #EDF6F9;
+    overflow: hidden;
+    table-layout: auto;
+    border-collapse: collapse;
+    box-shadow: 0px 5px 10px #004B52;
+    border-radius: 10px;
+    white-space: nowrap;
+    margin: auto;
+    overflow-x: auto;
+}
+
+.tabel th, 
+.tabel td {
+    padding: 15px;
+}
+
+.tabel td {
+    border-top: 0.5px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table tbody tr:hover {
+    background-color: #d8d5d5;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons svg{
+    cursor: pointer;
+}
+
+.tick {
+    color: green;
+}
+
+.expirat {
+    color: #004B52;
+    opacity: 70%;
+}
+
+.expirat:hover {
+    opacity: 100%;
+}
+
+

@@ -1,0 +1,43 @@
+/*004B52 - albastru inchis  95C8EE  5EAC35 - verde inchis 7DCA53   EDF6F9 - alice blue*/
+
+.titlu {
+    
+    font-size: 40px; 
+    color: #004B52; 
+    margin-bottom: 50px; 
+    margin-top: 30px;
+    text-align: center;
+}
+
+.prieteni {
+    width: 100%;
+   
+    border-radius: 10px;
+}
+
+.prieteni .btn {
+    display: block; 
+    width: max-content; 
+    margin: 20px auto; 
+    padding: 10px 20px;
+    background-color: #004B52;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 7px;
+}
+
+.prieteni .search-bar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.prieteni .search-bar input {
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.prieteni .search-bar button {
+    padding: 5px 15px;
+    font-size: 16px;
+}
